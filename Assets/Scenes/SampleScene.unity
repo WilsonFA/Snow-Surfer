@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 12114714}
   - component: {fileID: 12114711}
   - component: {fileID: 12114715}
+  - component: {fileID: 12114716}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -217,6 +218,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -1.31}
   m_Size: {x: 2.93, y: 0.34}
   m_Direction: 1
+--- !u!114 &12114716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12114710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d2408aec387d544b81728ee5df965e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1335,7 +1348,7 @@ SurfaceEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: 5
+  m_Speed: 15
   m_SpeedVariation: 0
   m_ForceScale: 1
   m_UseContactForce: 0

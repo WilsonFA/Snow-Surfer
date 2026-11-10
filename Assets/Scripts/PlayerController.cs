@@ -85,4 +85,9 @@ public class PlayerController : MonoBehaviour
     {
         canControlPlayer = false;
     }
+
+    public void ActivatePowerup(PowerupSO powerup)
+    {
+        
+    }
 }
